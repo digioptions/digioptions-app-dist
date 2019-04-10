@@ -1,14 +1,13 @@
-digioptions-web.js
-=====================
+DigiOptions-App
+===============
 
-TODO
-
-![logo digioptions.com](img/digioptions.png)
+Prebuild version of DigiOptions-App.
 
 Public repository
 -----------------
 
-TODO
+[https://github.com/digioptions/digioptions-app](https://github.com/digioptions/digioptions-app)
+
 
 Copyright and license
 ---------------------
