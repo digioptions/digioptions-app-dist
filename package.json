@@ -1,13 +1,13 @@
 {
   "name": "digioptions-app",
-  "version": "0.2.25",
+  "version": "0.2.26",
   "description": "User Driven Digital Option Markets based on Ethereum smart contracts",
   "license": "All rights reserved.",
   "private": true,
   "scripts": {
     "serve": "http-server dist -a 127.0.0.1 -p 7999 -c-1",
     "clean-js": "rimraf dist/js/digioptions.*.js dist/js/digioptions.*.map",
-    "clean": "rimraf dist && rimraf js/version.js && mkdir dist dist/js dist/css dist/font && cp -r assets/* dist && cp -r assets2/* dist && cp node_modules/typeface-open-sans/files/open-sans-latin-400.woff node_modules/typeface-open-sans/files/open-sans-latin-400.woff2 node_modules/typeface-roboto-condensed/files/roboto-condensed-latin-400.woff node_modules/typeface-roboto-condensed/files/roboto-condensed-latin-400.woff2 dist/font",
+    "clean": "rimraf dist && mkdir dist dist/js dist/css dist/font && cp -r assets/* dist && cp -r assets2/* dist && cp node_modules/typeface-open-sans/files/open-sans-latin-400.woff node_modules/typeface-open-sans/files/open-sans-latin-400.woff2 node_modules/typeface-roboto-condensed/files/roboto-condensed-latin-400.woff node_modules/typeface-roboto-condensed/files/roboto-condensed-latin-400.woff2 dist/font",
     "prerender": "node ./tools/prerender.js",
     "build": "npm run clean && npm run prerender && npm run build-js && npm run build-css",
     "build-js": "npm run clean-js && REACT_APP_VERSION=$npm_package_version NODE_ENV=production node ./tools/browserify.js js/main.js -p [ licensify --includePrivate ] --debug -o dist/js/digioptions.bundle.js && terser --compress --mangle --comments '/Modules in this bundle/' dist/js/digioptions.bundle.js --source-map \"url='http://localhost:7999/js/digioptions.bundle-$npm_package_version.min.js.map',content=inline,includeSources\" -o dist/js/bundle.min.js && rm dist/js/digioptions.bundle.js && mv dist/js/bundle.min.js.map dist/js/digioptions.bundle-$npm_package_version.min.js.map",
