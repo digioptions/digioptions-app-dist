@@ -1,6 +1,6 @@
 {
   "name": "digioptions-app",
-  "version": "0.2.27",
+  "version": "0.2.28",
   "description": "User Driven Digital Option Markets based on Ethereum smart contracts",
   "license": "All rights reserved.",
   "private": true,
