@@ -3,7 +3,7 @@
     "dir": "ltr",
     "name": "DigiOptions App",
     "description": "User Driven Digital Option Markets based on Ethereum smart contracts",
-    "short_name": "DigiOptions",
+    "short_name": "DigiOptions App",
     "icons": [
         {
             "src": "img/android-chrome-192x192.png",
