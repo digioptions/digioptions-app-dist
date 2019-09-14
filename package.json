@@ -1,6 +1,6 @@
 {
   "name": "digioptions-app",
-  "version": "0.6.7",
+  "version": "0.6.8",
   "description": "User Driven Digital Option Markets based on Ethereum smart contracts",
   "license": "All rights reserved.",
   "private": true,
@@ -52,7 +52,7 @@
     "babelify": "10.0.0",
     "bootstrap": "^3.4.1",
     "browserify": "^16.3.0",
-    "budo": "^11.6.2",
+    "budo": "^11.6.3",
     "contenthash-signer-ens": "git+https://github.com/berlincode/contenthash-signer-ens.git",
     "d3": "5.9.2",
     "d3-selection-multi": "1.0.1",
