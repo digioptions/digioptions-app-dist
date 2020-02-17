@@ -1,0 +1,10 @@
+{
+  "address": "0x04c912071643ADbA7D26FFBf95Abe8c423e89594",
+  "contenthash": "0xe30101701220b18f23fe2dfd1032e695175bb5ccc83af1bed1a0c4ab0200d5c0989ed02d7a7a",
+  "sig": {
+    "r": "0x7a9bd290952740155be308cbe261ad05447bac8280a0bd7b475f835b116530a5",
+    "s": "0x64fd5ea82ee2415cb0dab424afdb9f52c9f72813f72e9efc3b21a63ae7de485a",
+    "v": "0x1b"
+  },
+  "version": "0x0000000700000000"
+}
