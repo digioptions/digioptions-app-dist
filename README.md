@@ -1,6 +1,8 @@
 digioptions-app
 ===============
 
+[![Version](https://img.shields.io/github/v/tag/digioptions/digioptions-app.svg?label=version&sort=semver&logo=github)](https://github.com/digioptions/digioptions-app)
+
 Distributed app / web GUI for DigiOptions (html / javascript)
 
 

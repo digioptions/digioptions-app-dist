@@ -1,6 +1,6 @@
 {
   "name": "digioptions-app",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "User Driven Digital Option Markets based on Ethereum smart contracts",
   "license": "All rights reserved.",
   "private": true,
@@ -62,7 +62,7 @@
     "envify": "^4.0.0",
     "eslint": "^6.8.0",
     "eslint-plugin-html": "^6.0.0",
-    "eslint-plugin-react": "~7.18.0",
+    "eslint-plugin-react": "~7.19.0",
     "exorcist": "1.0.1",
     "factsigner": "git+https://github.com/berlincode/factsigner.git",
     "history": "^4.6.1",
