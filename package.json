@@ -82,7 +82,7 @@
     "redux": "^4.0.1",
     "rimraf": "~3.0.0",
     "swiper": "^5.2.0",
-    "terser": "~4.6.1",
+    "terser": "~4.7.0",
     "typeface-open-sans": "0.0.75",
     "typeface-roboto-condensed": "0.0.75",
     "url-polyfill": "^1.0.14",
