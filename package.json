@@ -1,6 +1,6 @@
 {
   "name": "digioptions-app",
-  "version": "0.9.2",
+  "version": "0.10.0",
   "description": "User Driven Digital Option Markets based on Ethereum smart contracts",
   "license": "All rights reserved.",
   "private": true,
@@ -41,7 +41,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "~7.9.0",
+    "@babel/core": "~7.10.0",
     "@babel/plugin-proposal-class-properties": "~7.10.0",
     "@babel/polyfill": "~7.10.1",
     "@babel/preset-env": "~7.10.0",
