@@ -1,6 +1,6 @@
 {
   "name": "digioptions-app",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "User Driven Digital Option Markets based on Ethereum smart contracts",
   "license": "All rights reserved.",
   "private": true,
@@ -81,14 +81,13 @@
     "react-router-redux": "^4.0.8",
     "redux": "^4.0.1",
     "rimraf": "~3.0.0",
-    "swiper": "^5.2.0",
+    "swiper": "git://github.com/nolimits4web/swiper.git#v6.0.4",
     "terser": "~4.8.0",
     "typeface-open-sans": "0.0.75",
     "typeface-roboto-condensed": "0.0.75",
     "url-polyfill": "^1.0.14",
     "watchify": "^3.11.0",
-    "web3": "~1.2.9",
-    "xhr-request-promise": "^0.1.2"
+    "web3": "1.2.9"
   },
   "engine": {
     "node": "10.6.0"
