@@ -32,5 +32,5 @@ Public repository
 Copyright and license
 ---------------------
 
-Code and documentation copyright Ulf Bartel. All rights reserved.
-[license](./LICENSE).
+Copyright digioptions.com (https://www.digioptions.com). All rights reserved.
+[License](./LICENSE).
