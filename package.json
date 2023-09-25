@@ -35,9 +35,7 @@
     "type": "git",
     "url": "git+https://github.com/digioptions/digioptions-app.git"
   },
-  "dependencies": {
-    "crypto-browserify": "^3.12.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.17.0",
     "@babel/eslint-parser": "^7.17.0",
@@ -51,7 +49,9 @@
     "babel-loader": "^9.0.1",
     "babelify": "10.0.0",
     "bootstrap": "~4.6.0",
+    "browserify-zlib": "^0.2.0",
     "contenthash-signer-ens": "git+https://git@github.com/berlincode/contenthash-signer-ens.git",
+    "crypto-browserify": "^3.12.0",
     "css-loader": "^6.2.0",
     "d3": "~7.8.2",
     "digioptions-assets": "git+https://git@github.com/digioptions/digioptions-assets.git",
